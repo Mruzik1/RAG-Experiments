@@ -16,7 +16,7 @@ class ChatBot(discord.Client):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.channel = None
-        self.users_whitelist = ["392004509968236554"]
+        self.users_whitelist = []
         self.track_messages = False
         self.pause = False
         self.delay = 5
